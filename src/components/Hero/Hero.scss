@@ -1,0 +1,42 @@
+@import "../../colors.scss";
+
+section {
+  background: $light;
+  padding: 24px 0 60px 0;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  h1 {
+    color: $green;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+  }
+
+  h2 {
+    color: $green;
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: 500;
+  }
+
+  p {
+    max-width: 540px;
+  }
+
+  a {
+    background: $green;
+    color: $white;
+    padding: 11px 63px;
+    border: none;
+    font-size: 18px;
+    line-height: 150%;
+    margin-top: 36px;
+    text-decoration: none;
+    display: inline-block;
+  }
+}
