@@ -1,0 +1,66 @@
+@import "../../colors.scss";
+
+.header {
+  margin: 16px 0;
+  font-size: 18px;
+  background: $white;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &-left {
+    display: flex;
+    align-items: center;
+
+    nav {
+      margin-left: 60px;
+      display: flex;
+
+      a {
+        padding: 16px;
+        color: $black;
+        text-decoration: none;
+        position: relative;
+        display: flex;
+        align-items: center;
+
+        &:not(:last-child):after {
+          content: "";
+          width: 1px;
+          height: 18px;
+          background: $black;
+          position: absolute;
+          top: 18px;
+          right: 0px;
+        }
+      }
+    }
+  }
+
+  &-search {
+    display: flex;
+    align-items: stretch;
+
+    input {
+      padding: 10px 15px;
+      border: 2px solid $green;
+      border-radius: 2px 0px 0px 2px;
+      font-size: 18px;
+
+      &:placeholder {
+        color: opacify($color: $green, $amount: 0.7);
+      }
+    }
+
+    button {
+      background: #3a6150;
+      border-radius: 0px 2px 2px 0px;
+      border: none;
+      display: block;
+      width: 45px;
+    }
+  }
+}
