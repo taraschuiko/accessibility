@@ -20,7 +20,7 @@ const Header = () => (
         </nav>
       </div>
       <form action="" className="header-search">
-        <input type="text" name="search" placeholder="Search this site" />
+        <input type="search" name="search" placeholder="Search this site" />
         <button>
           <img src={searchIcon} alt="search" />
         </button>
