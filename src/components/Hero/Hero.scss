@@ -1,6 +1,6 @@
 @import "../../colors.scss";
 
-section {
+.hero {
   background: $light;
   padding: 24px 0 60px 0;
 
@@ -22,10 +22,12 @@ section {
     font-size: 24px;
     line-height: 120%;
     font-weight: 500;
+    margin-top: 36px;
   }
 
   p {
     max-width: 540px;
+    margin-top: 12px;
   }
 
   a {

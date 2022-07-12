@@ -3,7 +3,7 @@ import "./Hero.scss";
 import heroImage from "../../assets/heroImage.jpg";
 
 const Hero = () => (
-  <section>
+  <section className="hero">
     <div className="container">
       <div>
         <h1>Lorem ipsum dolor sit amet</h1>
