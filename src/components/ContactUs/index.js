@@ -29,13 +29,13 @@ const ContactUs = () => (
         </div>
         <div>
           <a href="facebook.com" className="social-icon">
-            <img src={facebookIcon} alt="" />
+            <img src={facebookIcon} alt="Facebook Page" />
           </a>
           <a href="facebook.com" className="social-icon">
-            <img src={facebookIcon} alt="" />
+            <img src={facebookIcon} alt="Facebook Page" />
           </a>
           <a href="facebook.com" className="social-icon">
-            <img src={facebookIcon} alt="" />
+            <img src={facebookIcon} alt="Facebook Page" />
           </a>
         </div>
       </div>

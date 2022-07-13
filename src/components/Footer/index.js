@@ -9,11 +9,13 @@ const Footer = () => (
       <div className="container">
         <div>
           <h2>PlantMe</h2>
-          <p>
-            Subscribe and be the first to know about our news and promotions.
-          </p>
           <form action="">
-            <input type="email" name="email" />
+            <label>
+              <p>
+                Subscribe and be the first to know about our news and promotions.
+              </p>
+              <input type="email" name="email" />
+            </label>
             <input type="submit" value="Subscribe" />
           </form>
         </div>
