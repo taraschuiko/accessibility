@@ -18,10 +18,10 @@ const Footer = () => (
           </form>
         </div>
         <div className="footer__menu">
-          <a href="">About Us</a>
-          <a href="">Contact Us</a>
-          <a href="">Blog</a>
-          <a href="">Site Map</a>
+          <a href="/">About Us</a>
+          <a href="/">Contact Us</a>
+          <a href="/">Blog</a>
+          <a href="/">Site Map</a>
         </div>
         <div className="footer__contacts">
           <h3>Contacts</h3>
@@ -39,9 +39,9 @@ const Footer = () => (
         <div></div>
         <p>© 2022 PlantMe. All Rights Reserved</p>
         <div className="footer__links">
-          <a href="">Privacy Policy</a>
-          <a href="">Terms of service</a>
-          <a href="">Language</a>
+          <a href="/">Privacy Policy</a>
+          <a href="/">Terms of service</a>
+          <a href="/">Language</a>
         </div>
       </div>
     </div>

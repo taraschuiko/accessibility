@@ -3,7 +3,7 @@ import "./AboutUs.scss";
 import aboutUsImage from "../../assets/aboutUs.jpg";
 
 const AboutUs = () => (
-  <section className="about-us">
+  <section className="about-us" id="about-us">
     <div className="container">
       <div className="about-us__item">
         <img src={aboutUsImage} alt="" />

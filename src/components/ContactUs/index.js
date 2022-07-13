@@ -3,7 +3,7 @@ import "./ContactUs.scss";
 import facebookIcon from "../../assets/facebook.svg";
 
 const ContactUs = () => (
-  <section className="contact-us">
+  <section className="contact-us" id="contact-us">
     <div className="container">
       <div className="contact-us__info">
         <div>
