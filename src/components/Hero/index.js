@@ -18,7 +18,7 @@ const Hero = () => (
         </p>
         <a href="#buy">Buy Now</a>
       </div>
-      <img src={heroImage} alt="" />
+      <img src={heroImage} alt="" height="648" width="648" />
     </div>
   </section>
 );

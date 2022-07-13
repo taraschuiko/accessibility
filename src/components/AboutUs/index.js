@@ -7,7 +7,7 @@ const AboutUs = () => (
     <div className="container">
       <div className="about-us__item">
         <div>
-          <img src={aboutUsImage} alt="" />
+          <img src={aboutUsImage} alt="" width="180" height="230" />
         </div>
         <div>
           <h2>About Us</h2>
@@ -25,7 +25,7 @@ const AboutUs = () => (
       </div>
       <div className="about-us__item">
         <div>
-          <img src={aboutUsImage} alt="" />
+          <img src={aboutUsImage} alt="" width="180" height="230" />
         </div>
         <div>
           <h2>About Us 2</h2>
