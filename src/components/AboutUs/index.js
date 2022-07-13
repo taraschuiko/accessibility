@@ -1,12 +1,14 @@
 import React from "react";
 import "./AboutUs.scss";
-import aboutUsImage from "../../assets/aboutUs.jpg";
+import aboutUsImage from "../../assets/aboutus.webp";
 
 const AboutUs = () => (
   <section className="about-us" id="about-us">
     <div className="container">
       <div className="about-us__item">
-        <img src={aboutUsImage} alt="" />
+        <div>
+          <img src={aboutUsImage} alt="" />
+        </div>
         <div>
           <h2>About Us</h2>
           <p>
@@ -22,7 +24,9 @@ const AboutUs = () => (
         </div>
       </div>
       <div className="about-us__item">
-        <img src={aboutUsImage} alt="" />
+        <div>
+          <img src={aboutUsImage} alt="" />
+        </div>
         <div>
           <h2>About Us 2</h2>
           <p>

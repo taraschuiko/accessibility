@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.scss";
-import visaIcon from "../../assets/visa.png";
-import mastercardIcon from "../../assets/mastercard.png";
+import visaIcon from "../../assets/visa.webp";
+import mastercardIcon from "../../assets/mastercard.webp";
 
 const Footer = () => (
   <footer className="footer">

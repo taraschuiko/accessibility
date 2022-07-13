@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.scss";
-import heroImage from "../../assets/heroImage.jpg";
+import heroImage from "../../assets/heroimage.webp";
 
 const Hero = () => (
   <section className="hero">
